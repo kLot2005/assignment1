@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+</head>
+<link rel="stylesheet" href="style.css" />
+<body>
+    <header>
+        <h1>My Webpage</h1>
+        <!-- // Navigation Bar -->
+        <nav>
+                <a href="#about">About me</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#websites">Websites</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#forms">Forms</a>
+        </nav>
+  </header>
+
+  <main>
+    <!-- // Profile Section -->
+    <section class="profile">
+
+        <div class="photo">
+          <img src="myfoto.jpg">
+          <h2>Bekars Bishimbay</h2>
+          <p>SE-2403</p>
+        </div>
+
+        <div class="about" id="about">
+          <h2>About Me</h2>
+          <p>Hello! My name is Bekarys. I am a student at SE-2403. I enjoy learning about web development and programming&#128187;. In my free time, I like to read books&#128218; and play video games.</p>
+        </div>
+
+        <div class="hobbies" id="hobbies">
+          <h2>My Hobbies</h2>
+            <ul>
+              <li>Reading</li>
+              <li>Arming</li>
+              <li>Coding</li>
+              <li>Traveling</li>
+            </ul>
+
+          <h3 id="websites">My Favorite Websites</h3>
+            <ol>
+              <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
+              <li><a href="https://github.com" target="_blank">GitHub</a></li>
+              <li><a href="https://stackoverflow.com" target="_blank">Stack Overflow</a></li>
+              <li><a href="https://youtube.com" target="_blank">YouTube</a></li>
+            </ol>
+
+          <button>Click Me</button>
+
+        </div>
+
+    </section>
+    <!-- // Schedule Section -->
+    <section class="schedule" id="schedule">
+      <h2>Schedule</h2>
+      <table>
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+        <tr>
+          <td>14:00-14:50</td>
+          <td>ANMS</td>
+          <td>-</td>
+          <td>ANMS</td>
+          <td>-</td>
+          <td>ANMS</td>
+        </tr>
+        <tr>
+          <td>15:00-15:50</td>
+          <td>ANMS</td>
+          <td>-</td>
+          <td>ANMS</td>
+          <td>WEB</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>16:00-16:50</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>WEB</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>17:00-16:50</td>
+          <td>-</td>
+          <td>-</td>
+          <td>Finance</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>18:00-18:50</td>
+          <td>Finance</td>
+          <td>WEB</td>
+          <td>Finance</td>
+          <td>-</td>
+          <td>-</td>
+      </table>
+    </section>
+
+    <!-- // Forms Section -->
+    <section class="forms" id="forms">
+      <h2>My Forms</h2>
+      <form>
+        <label>Name: <input type="text" name="name"></label><br>
+        <label>Email: <input type="email" name="email"></label><br>
+        <label>Favorite Color: <input type="color" name="color"></label><br>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Bekars Bishimbay | Made with ❤️ in HTML</p>
+  </footer>
+</body>
+</html>
