@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +6,10 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Kode Mono", monospace;
   background: linear-gradient(to right, #ece9e6, #ffffff);
   color: #333;
   line-height: 1.6;
-  max-width: 1440px;
-  padding: 0px;
-  margin: 0 auto;
 }
 
 header {
@@ -20,8 +17,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background: #fff;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   margin-bottom: 20px; 
 }
 
@@ -40,14 +35,20 @@ nav a:hover {
   text-decoration: underline;
 }
 
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
 .profile {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   gap: 20px;
   margin-bottom: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  background: #fff;
   padding: 15px;
 }
 
@@ -70,33 +71,22 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-.schedule table {
+table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
-}
 
-.schedule th, .schedule td {
+}
+ th, td {
   border: 1px solid #ccc;
   padding: 10px;
   text-align: center;
 }
 
-.schedule th {
-  background: #3f72af;
-  color: #fff;
-}
-
-.schedule tr:nth-child(even) {
-  background: #f9f9f9;
-}
-
 
 .forms {
-  background: #fff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .forms label {
@@ -112,8 +102,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
-
-.forms button:hover {
+ button:hover {
   background: #2c5c8f;
 }
 
